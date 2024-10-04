@@ -1,0 +1,33 @@
+.contain-item {
+
+    display: flex;
+    margin: 1rem 0;
+
+}
+
+.item {
+
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--font-color-two);
+    background-color: var(--color-five);
+    padding: 1rem;
+    border-radius: 3px 0 0 3px;
+    font-weight: 500;
+
+}
+
+.contain-item button {
+
+    width: 20%;
+    border-radius: 0 3px 3px 0;
+
+}
+
+.contain-item button i {
+
+    font-size: 18px;
+
+}

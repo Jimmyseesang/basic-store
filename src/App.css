@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+
+    --background-color: #003049;
+    --font-color-two: #d62828;
+    --color-three: #f77f00;
+    --main-font-color: #fcbf49;
+    --color-five: #eae2b7;
+    --main-font: "Fredoka", "Mitr";
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body, html {
+
+    height: 100%;
+    width: 100%;
+    background-color: var(--background-color);
+    font-family: var(--main-font);
+    position: relative;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.main {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+
+    text-align: center;
+    color: var(--main-font-color);
+    font-weight: 400;
+    margin-bottom: 1rem;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.back {
+
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 50px;
+
 }
